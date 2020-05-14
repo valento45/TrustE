@@ -1,0 +1,37 @@
+------------> Banco de Dados <------------
+-Usúarios
+-Publicações
+-Em Alta
+-Mensagens
+-Comentarios
+-Likes
+-Salvos
+-Amigos
+
+==================================================================
+
+Usuarios
+
+Login ( id_login, id_usuario, data_login, tempo_logado (datetime.now) ).
+
+Publicações (id_publicacao, data, id_usuario, conteudo, imagem )
+
+Likes (id_like id_publicacao, id_amigo_que_curtiu )
+
+Comentarios ( id_comentario id_publicacao, id_amigo, data )
+
+em alta (id_alta, id_publicacao, id_like )
+
+mensagem (id_mensagem, id_usuario, id_amigo, data, mensagem, visualizado )
+
+salva (id_salva, id_publicacao, id_usuario ) select * from  salva where id_usuario = 1
+
+amigos (id_usuario, id_amigo )
+
+Historico de publicacao (id_publicacao, conteudo_antes, conteudo_depois, data_alteracao)
+Historico comentarios 
+
+
+
+
+
